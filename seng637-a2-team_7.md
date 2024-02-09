@@ -2,16 +2,18 @@
 
 **Lab. Report \#2 – Requirements-Based Test Generation**
 
-| Group \#:      |     |
+| Group \#: 7     |     |
 | -------------- | --- |
 | Student Names: |     |
-|                |     |
-|                |     |
-|                |     |
+| Benjamin Reid               |     |
+| Carissa Chung               |     |
+| Christian Valdez               |     |
+| Alton Wong               |     |
+| Braden Tink               |     |
 
 # 1 Introduction
 
-Text…
+To increase our knowledge of software testing (and Java in particular), we are looking at Junit testing. This is a common technique to test Java code using the built-in functionality. The JFreeChart .jar files were provided for this assignment, and will be used as example classes for testing. 
 
 # 2 Detailed description of unit test strategy
 
