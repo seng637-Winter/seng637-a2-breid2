@@ -43,7 +43,9 @@ Range Class:
 
 
 DataUtilities Class:
+
   calculateColumnTotal Method:
+  
     calculateColumnTotalForTwoValues(): this checks the function as it normally functions, with two positive values (pass)
     calculateColumnTotalForThreeValues(): this checks the extended function, with three positive values (pass)
     calculateColumnTotalForNegativeValues(): this checks the function, but with two positive values (pass)
