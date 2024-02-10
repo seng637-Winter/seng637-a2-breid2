@@ -30,7 +30,9 @@ the source code method // they test. identify which tests cover which partitions
 you have explained in the test strategy section //above
 
 Range Class:
+
   Constrain Method:
+  
     testAboveConstrain(): this checks to see if the constrain method works for a value above the given range (pass)
     testAtHighConstrain(): this checks to see if the constrain method works for the top boundary value in a given range (pass)
     testBelowConstrain(): this checks to see if the constrain method works for a value below the given range (fail)
