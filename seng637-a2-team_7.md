@@ -32,6 +32,8 @@ you have explained in the test strategy section //above
 Range Class:
 
   Constrain Method:
+
+    The bounds of the range values were -1 to 1, so the testing was done below -1, at -1, between the boundary values, at 1, and above 1.
   
     testAboveConstrain(): this checks to see if the constrain method works for a value above the given range (pass)
     testAtHighConstrain(): this checks to see if the constrain method works for the top boundary value in a given range (pass)
@@ -45,6 +47,8 @@ Range Class:
 DataUtilities Class:
 
   calculateColumnTotal Method:
+
+    The method sums up the column, so the testing was done with 2 and 3 values, then negative values, and again for an invalid input (null value)
   
     calculateColumnTotalForTwoValues(): this checks the function as it normally functions, with two positive values (pass)
     calculateColumnTotalForThreeValues(): this checks the extended function, with three positive values (pass)
