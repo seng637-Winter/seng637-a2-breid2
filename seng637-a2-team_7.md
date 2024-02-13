@@ -33,7 +33,7 @@ Range Class:
 
   Constrain Method:
 
-    The bounds of the range values were -1 to 1, so the testing was done below -1, at -1, between the boundary values, at 1, and above 1.
+    The bounds of the range values used were -1 to 1, so the testing was done below -1, at -1 (the lower boundary), between the boundary values, at 1 (the upper boundary), and above 1.
   
     testAboveConstrain(): this checks to see if the constrain method works for a value above the given range (pass)
     testAtHighConstrain(): this checks to see if the constrain method works for the top boundary value in a given range (pass)
@@ -52,7 +52,7 @@ DataUtilities Class:
   
     calculateColumnTotalForTwoValues(): this checks the function as it normally functions, with two positive values (pass)
     calculateColumnTotalForThreeValues(): this checks the extended function, with three positive values (pass)
-    calculateColumnTotalForNegativeValues(): this checks the function, but with two positive values (pass)
+    calculateColumnTotalForNegativeValues(): this checks the function, but with two negative values (pass)
     calculateColumnTotalForWrongColumn(): this checks to see if method matches javadoc when input is not correct (fail)
 
 # 4 How the team work/effort was divided and managed
