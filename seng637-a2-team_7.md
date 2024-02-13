@@ -48,12 +48,12 @@ DataUtilities Class:
 
   calculateColumnTotal Method:
 
-    The method sums up the column, so the testing was done with 2 and 3 values, then negative values, and again for an invalid input (null value)
+    The method sums up the column, so testing was done with 2 values, more than 2 values, and negative values, the Javadoc also specifies that it returns 0 for an invalid input, so that was tested as well
   
     calculateColumnTotalForTwoValues(): this checks the function as it normally functions, with two positive values (pass)
     calculateColumnTotalForThreeValues(): this checks the extended function, with three positive values (pass)
     calculateColumnTotalForNegativeValues(): this checks the function, but with two negative values (pass)
-    calculateColumnTotalForWrongColumn(): this checks to see if method matches javadoc when input is not correct (fail)
+    calculateColumnTotalForWrongInput(): this checks to see if method matches javadoc when input is not correct (fail)
 
 # 4 How the team work/effort was divided and managed
 
